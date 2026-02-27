@@ -41,7 +41,7 @@ function WeddingSection({ isInvitation }) {
     <Fragment>
       <div id="fh5co-event" css={styWrapper}>
         <div className="overlay" />
-        <div className="container">
+        <div className="container" style={{ position: 'relative', zIndex: 1 }}>
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
               <span className="sub-title sub-title__wedding">Mời bạn tham dự</span>

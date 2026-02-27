@@ -56,7 +56,7 @@ WeddingInfoBox.propTypes = {
   date: string.isRequired,
   time: string.isRequired,
   description: string.isRequired,
-  mapLink: string,
+  mapLink: string.isRequired,
 };
 
 export default React.memo(WeddingInfoBox);

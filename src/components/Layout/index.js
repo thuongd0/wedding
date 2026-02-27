@@ -8,6 +8,7 @@ import '@assets/css/bootstrap.css';
 import '@assets/css/style.css';
 
 // const IMAGE_URL = `https://github.com/minhchienwikipedia/tuananh-hoailinh/blob/gh-pages/static/bg-welcome-809077a12bd83875c2c21399840b5880.jpg?raw=true`;
+const IMAGE_URL = `https://github.com/thuongd0/wedding/blob/main/src/assets/images/gallery-1.5.jpg`;
 const META_DESCRIPTION = `Thương Đỗ ❤️ Phương Anh Wedding`;
 
 function MainLayout({ children }) {
@@ -21,7 +22,7 @@ function MainLayout({ children }) {
 
         {/* font and SEO tags */}
         <meta property="og:title" content="The Wedding of Thương Đỗ & Phương Anh" />
-        <meta property="og:image" content={'/gallery-1.5.jpg'} />
+        <meta property="og:image" content={IMAGE_URL} />
         <meta property="og:site_name" content="The Wedding of Thương Đỗ & Phương Anh" />
         <meta property="og:description" content={META_DESCRIPTION} />
 
