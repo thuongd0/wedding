@@ -244,8 +244,8 @@ export const styWrapperCount = css`
   width: 90px;
   height: 90px;
   background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   margin: 12px;
   border-radius: 12px;
