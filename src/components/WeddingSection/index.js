@@ -39,7 +39,13 @@ function WeddingSection({ isInvitation }) {
 
   return (
     <Fragment>
-      <div id="fh5co-event" css={styWrapper}>
+      <div
+        id="fh5co-event"
+        css={styWrapper}
+        style={{
+          float: 'unset',
+        }}
+      >
         <div className="overlay" />
         <div className="container" style={{ position: 'relative', zIndex: 1 }}>
           <div className="row">
@@ -49,7 +55,7 @@ function WeddingSection({ isInvitation }) {
               <span className="sub-title sub-title__wedding">chung vui cùng gia đình chúng mình!</span>
             </div>
           </div>
-          <div className="row">{renderGuestInfo()}</div>
+          <div className="row" >{renderGuestInfo()}</div>
         </div>
       </div>
     </Fragment>
