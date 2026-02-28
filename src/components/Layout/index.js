@@ -21,24 +21,29 @@ function MainLayout({ children }) {
         <link rel="icon" type="image/png" href={Favicon} />
 
         {/* font and SEO tags */}
-        <meta property="og:title" content="The Wedding of Thương Đỗ & Phương Anh" />
-        <meta property="og:image" content={IMAGE_URL} />
-        <meta property="og:site_name" content="The Wedding of Thương Đỗ & Phương Anh" />
-        <meta property="og:description" content={META_DESCRIPTION} />
-        <meta property="og:url" content="https://thuongdo-phuonganh.id.vn" />
         <meta property="og:type" content="website" />
-        <meta property="og:locale" content="vi_VN" />
+        <meta property="og:url" content="https://thuongdo-phuonganh.id.vn" />
+        <meta property="og:title" content="The Wedding of Thương Đỗ & Phương Anh" />
+        <meta property="og:description" content={META_DESCRIPTION} />
+        <meta property="og:image" content={`${IMAGE_URL}?v=1`} />
+        <meta property="og:image:secure_url" content={`${IMAGE_URL}?v=1`} />
+        <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:alt" content="Wedding of Thương Đỗ & Phương Anh" />
+        <meta property="og:locale" content="vi_VN" />
+        <meta property="og:site_name" content="The Wedding of Thương Đỗ & Phương Anh" />
+
+        {/* Generic/Schema.org tags */}
+        <meta itemprop="image" content={`${IMAGE_URL}?v=1`} />
+        <meta name="image" content={`${IMAGE_URL}?v=1`} />
 
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://thuongdo-phuonganh.id.vn" />
         <meta name="twitter:title" content="The Wedding of Thương Đỗ & Phương Anh" />
         <meta name="twitter:description" content={META_DESCRIPTION} />
-        <meta name="twitter:image" content={IMAGE_URL} />
-        <meta name="twitter:url" content="https://thuongdo-phuonganh.id.vn" />
+        <meta name="twitter:image" content={`${IMAGE_URL}?v=1`} />
 
         <link
           href="https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700"
