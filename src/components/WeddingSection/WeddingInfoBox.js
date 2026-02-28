@@ -49,7 +49,7 @@ function WeddingInfoBox({ title, date, time, address, description, mapLink }) {
         }
 
       </div>
-    </div>
+    </div >
   );
 }
 

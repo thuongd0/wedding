@@ -44,7 +44,7 @@ function HelloSection({ }) {
                 <img src={Bride} alt="groom" className="img-responsive" loading="lazy" />
               </div>
               <div className="desc-bride">
-                <h3 className="main-font">Vũ Thị Phương Anh</h3>
+                <h3 className="main-font">Phương Anh</h3>
                 <p className="parent-name">
                   Duyên nợ từ đây, đôi ta chung lối,
                   <br />
