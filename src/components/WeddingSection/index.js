@@ -19,7 +19,7 @@ function WeddingSection({ isInvitation }) {
           />
           <WeddingInfoBox
             title={`Tư gia Nhà gái`}
-            time="15:30"
+            time="16:00"
             date="Thứ bảy, 21 Tháng 3, 2026"
             address={'Ngõ 85, Thôn Cầu, Dĩnh Trì, TP Bắc Giang'}
             mapLink="https://maps.app.goo.gl/4kbABuxp25eTdfwr9"
