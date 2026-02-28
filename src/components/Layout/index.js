@@ -27,12 +27,18 @@ function MainLayout({ children }) {
         <meta property="og:description" content={META_DESCRIPTION} />
         <meta property="og:url" content="https://thuongdo-phuonganh.id.vn" />
         <meta property="og:type" content="website" />
+        <meta property="og:locale" content="vi_VN" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:alt" content="Wedding of Thương Đỗ & Phương Anh" />
 
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="The Wedding of Thương Đỗ & Phương Anh" />
         <meta name="twitter:description" content={META_DESCRIPTION} />
         <meta name="twitter:image" content={IMAGE_URL} />
+        <meta name="twitter:url" content="https://thuongdo-phuonganh.id.vn" />
 
         <link
           href="https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700"
