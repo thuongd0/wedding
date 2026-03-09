@@ -25,7 +25,7 @@ function WeddingSection({ isInvitation }) {
             mapLink="https://maps.app.goo.gl/4kbABuxp25eTdfwr9"
           />
           <WeddingInfoBox
-            title={`Lễ Vu Quy`}
+            title={`Lễ Thành Hôn`}
             time="11:00"
             date="Chủ nhật, 22 Tháng 3, 2026"
             address={'Thôn 2, Vũ Bản, Bình Lục, Hà Nam'}
